@@ -1,0 +1,37 @@
+import React from 'react'
+
+function Card(props) {
+  console.log(props.company);
+  
+  return (
+    <div className='parent'>
+       <div className='card'>
+      <div>
+        <div className='top'>
+        <img src="data:image/png;base64,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" alt="" />
+        <button>Save</button>
+      </div>
+      <div className='center'>
+        <h3>{props.company} <span>3 days ago</span></h3>
+        <h2>{props.post}</h2>
+        <div className='tag'>
+          <h4>Part Time</h4>
+          <h4>Senior Level</h4>
+        </div>
+      </div>
+      </div>
+    
+    <div className='bottom'>
+  
+        <div>
+          <h3>$120/hr</h3>
+          <p>Mumbai, Inidia</p>
+        </div>
+        <button>Apply Now</button>
+      </div>
+    </div>
+    </div>
+  )
+}
+
+export default Card
