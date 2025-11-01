@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  background: burlywood;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  
+}
+
+.navbar{
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+  
+}
